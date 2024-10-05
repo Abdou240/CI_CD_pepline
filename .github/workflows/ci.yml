@@ -22,5 +22,5 @@ jobs:
       - name: Build with Maven
         run: mvn -B package --file pox.xml
 
-      - name: Run tests
-        run: mvn test --help && mvn test .
+      - name: Validate Maven Project
+        run: mvn validate --file pom.xml

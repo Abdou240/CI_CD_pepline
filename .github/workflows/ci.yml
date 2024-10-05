@@ -23,4 +23,4 @@ jobs:
         run: mvn -B package --file pox.xml
 
       - name: Validate Maven Project
-        run: mvn validate --file pom.xml
+        run: mvn validate --file pox.xml
